@@ -1,0 +1,167 @@
+/*
+Studi Vanzzini
+Developer: Marco Rosas
+*/
+
+/*
+FONTS
+*/
+@font-face {
+    font-family: Now;
+    src: url('fonts/Now-Regular.otf');
+}
+
+@font-face {
+    font-family: Oxygen;
+    src: url('fonts/Oxygen-Regular.ttf');
+}
+
+@font-face {
+    font-family: Josefin-Bold;
+    src: url('fonts/JosefinSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: Josefin-Semi;
+    src: url('fonts/JosefinSans-SemiBold.ttf');
+}
+
+
+/*
+MAIN CSS
+*/
+
+body {
+  background-color: #f3f2ee;
+  font-family: 'Oxygen';
+  /*margin: 0px;*/
+}
+
+/* LOGO STUFF */
+.main_logo {
+  font-size: 3em;
+  text-align: center;
+}
+.logo_font {
+  font-family: 'Now';
+}
+.main_logo a:hover {
+  text-decoration: none;
+}
+
+.logo_gray_part {
+  color: #333333;
+}
+
+.logo_red_part {
+  color: #b90504;
+}
+
+.gray_color {
+  color: #333333;
+}
+
+/* NAVIGATION */
+.navigation {
+  list-style: none;
+   margin: 0;
+
+   display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+
+   -webkit-flex-flow: row wrap;
+   justify-content: flex-end;
+}
+
+.navigation a {
+    font-family: 'Josefin-Semi';
+    font-size: 1.6em;
+    color: #333333;
+
+    display: block;
+    padding: 1em;
+}
+
+
+/* LINKS */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*MAIN PAGE SECTION*/
+main {
+  text-align: center;
+}
+.card_container {
+  /*width: 80%;*/
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.card {
+
+  background: white;
+  padding: 5px;
+  width: 30%;
+  height: 150px;
+  margin-top: 10px;
+
+  text-align: center;
+}
+
+.card_title {
+  font-family: 'Josefin-Semi';
+  font-size: 2em;
+}
+
+
+/* MEDIA */
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+
+  .main_logo {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 600px) {
+
+  .main_logo {
+    text-align: center;
+  }
+
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
