@@ -34,7 +34,7 @@ MAIN CSS
 body {
   background-color: #f3f2ee;
   font-family: 'Oxygen';
-  /*margin: 0px;*/
+  margin: 0px;
 }
 
 /* LOGO STUFF */
@@ -100,8 +100,6 @@ main {
   text-align: center;
 }
 .card_container {
-  /*width: 80%;*/
-
   padding: 0;
   margin: 0;
   list-style: none;
@@ -119,7 +117,7 @@ main {
   background: white;
   padding: 5px;
   width: 30%;
-  height: 150px;
+  height: 400px;
   margin-top: 10px;
 
   text-align: center;
@@ -130,6 +128,18 @@ main {
   font-size: 2em;
 }
 
+/* FOOTER */
+footer {
+  background-color: #333333;
+  margin-top: 100px;
+  height: 75px;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer p {
+  padding: 10px;
+}
 
 /* MEDIA */
 @media all and (max-width: 800px) {
