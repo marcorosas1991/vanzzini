@@ -3,6 +3,8 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style/style.css">
+    <meta charset="utf-8" />
+    <title>Studi Vanzzini</title>
   </head>
 
   <body id="myPage">
@@ -39,7 +41,7 @@
     </ul>
 
     <h2>Our clients:</h2>
-    <ul class="card_container" id="main_services_section">
+    <ul class="card_container" id="main_clients_section">
       <li class="card">
           <span class="card_title">Hotel Palacio del Virrey</span>
       </li>
