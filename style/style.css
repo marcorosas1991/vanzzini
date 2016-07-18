@@ -35,6 +35,7 @@ body {
   background-color: #f3f2ee;
   font-family: 'Oxygen';
   margin: 0px;
+  margin-top: 20px;
 }
 
 /* LOGO STUFF */
@@ -115,17 +116,33 @@ main {
 .card {
 
   background: white;
-  padding: 5px;
+  padding: 10px;
   width: 30%;
   height: 400px;
   margin-top: 10px;
+  padding: 10px;
 
-  text-align: center;
+  /*background-image: url("../images/web_optimizer.jpg");
+  background-repeat:no-repeat;
+  background-position: center bottom;*/
+}
+
+.card p {
+  text-align: justify;
+  font-size: 1.2em;
+  padding: 10px;
 }
 
 .card_title {
   font-family: 'Josefin-Semi';
   font-size: 2em;
+  color: #b90504;
+}
+
+.text_section {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* FOOTER */
@@ -149,6 +166,14 @@ footer p {
 
   .main_logo {
     text-align: center;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  .text_section {
+    width: 80%;
   }
 }
 
@@ -174,4 +199,14 @@ footer p {
   .navigation li:last-of-type a {
     border-bottom: none;
   }
+
+  .card {
+    width: 100%;
+  }
+
+  .card_container {
+    flex-flow: column;
+  }
+
+
 }
