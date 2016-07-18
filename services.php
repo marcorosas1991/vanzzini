@@ -26,7 +26,7 @@
         <a href="contact.php">Get a free quote</a>
     </li>
     <li class="card">
-        <span class="card_title">Boost your online presence</span>
+        <span class="card_title">Web optimizer</span>
         <p>
           For businesses that want to boost their existing online presence.
           We will optimize your website to be found by search engines like Google, Bing, Yahoo, etc.

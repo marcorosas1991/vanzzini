@@ -11,7 +11,7 @@
           <span class="card_title">Web pages</span>
       </li>
       <li class="card">
-          <span class="card_title">Boost your online presence</span>
+          <span class="card_title">Web optimizer</span>
       </li>
       <li class="card">
           <span class="card_title">Web apps</span>
@@ -25,10 +25,9 @@
       </li>
       <li class="card">
           <span class="card_title">Hotel Palacio del Virrey</span>
+          <br />
+          <a href="http://www.hotelpalaciovirrey.com" target="_blank">View project</a>
       </li>
-      <!-- <li class="card">
-          <span class="card_title">Web apps</span>
-      </li> -->
     </ul>
   </main>
 

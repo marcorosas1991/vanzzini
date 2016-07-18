@@ -2,9 +2,14 @@
 <?php include 'views/header.php'; ?>
 
 <main>
-  <h2>We are Studi Vanzzini</h2>
+  <h1>Contact</h1>
+  <section class="text_section">
+    <p>
+      Every business has unique needs.
+      We have one of the best teams to find the solutions you need.
+      Have one of our specialists talk to you. Free quotes.
+    </p>
+    <a href="mailto:contact@vanzzini.com">contact@vanzzini.com</a>
+  </section>
 
-  <h2>Mission</h2>
-
-  <h2>Vision</h2>
 </main>
