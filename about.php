@@ -7,7 +7,7 @@
     <p>
       We are a web development company specialized in boosting businesses’ online presence.
       Our team has a great expertise in creating modern web solutions.
-      Our philosophy is that creating high quality design, and code create successful websites.
+      Our philosophy is that creating high quality designs, and code create successful websites.
       We want happy customers, so we are committed to provide the best service to you.
     </p>
   </section>

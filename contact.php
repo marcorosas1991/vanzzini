@@ -6,7 +6,7 @@
   <section class="text_section">
     <p>
       Every business has unique needs.
-      We have one of the best teams to find the solutions you need.
+      We have one of the best teams in the industry to create the solutions you need.
       Have one of our specialists talk to you. Free quotes.
     </p>
     <a href="mailto:contact@vanzzini.com">contact@vanzzini.com</a>
